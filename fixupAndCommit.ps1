@@ -50,9 +50,9 @@ Start-Job -RunAs32 -ArgumentList $PSScriptRoot\JordanView.hdf -ScriptBlock {
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'Kitchen Gathering Floor Receptacles' WHERE Parent_ID = 35 AND Position = 13") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'Dining Room Receptacles' WHERE Parent_ID = 35 AND Position = 14") | Out-Null
 
-	$connection.Execute("UPDATE EngravingText SET [Text] = '' WHERE Parent_ID = 35 AND Position = 1") | Out-Null
-	$connection.Execute("UPDATE EngravingText SET [Text] = '' WHERE Parent_ID = 35 AND Position = 2") | Out-Null
-	$connection.Execute("UPDATE EngravingText SET [Text] = '' WHERE Parent_ID = 35 AND Position = 3") | Out-Null
+	$connection.Execute("UPDATE EngravingText SET [Text] = 'HVAC Main Downstairs Interrupt' WHERE Parent_ID = 35 AND Position = 1") | Out-Null
+	$connection.Execute("UPDATE EngravingText SET [Text] = 'HVAC Master Downstairs Interrupt' WHERE Parent_ID = 35 AND Position = 2") | Out-Null
+	$connection.Execute("UPDATE EngravingText SET [Text] = 'HVAC Upstairs Interrupt' WHERE Parent_ID = 35 AND Position = 3") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = '' WHERE Parent_ID = 35 AND Position = 4") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = '' WHERE Parent_ID = 35 AND Position = 5") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = '' WHERE Parent_ID = 35 AND Position = 6") | Out-Null
