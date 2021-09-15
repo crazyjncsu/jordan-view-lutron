@@ -56,7 +56,7 @@ Start-Job -RunAs32 -ArgumentList $PSScriptRoot\JordanView.hdf -ScriptBlock {
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'Driveway Gate Keypad' WHERE Parent_ID = 35 AND Position = 4") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'Roof Bedroom Lights' WHERE Parent_ID = 35 AND Position = 5") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'Pond Bedroom Lights' WHERE Parent_ID = 35 AND Position = 6") | Out-Null
-	$connection.Execute("UPDATE EngravingText SET [Text] = '' WHERE Parent_ID = 35 AND Position = 7") | Out-Null
+	$connection.Execute("UPDATE EngravingText SET [Text] = 'Living Room Entertainment Center Lights' WHERE Parent_ID = 35 AND Position = 7") | Out-Null
 
 
 
