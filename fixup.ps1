@@ -32,10 +32,10 @@ Start-Job -RunAs32 -ArgumentList $PSScriptRoot\JordanView.hdf -ScriptBlock {
 
 
 
-	$connection.Execute("UPDATE EngravingText SET [Text] = 'Driveway Gate' WHERE Parent_ID = 35 AND Position = 15") | Out-Null
+	$connection.Execute("UPDATE EngravingText SET [Text] = '' WHERE Parent_ID = 35 AND Position = 15") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'Hot Water Circulator' WHERE Parent_ID = 35 AND Position = 16") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'Indoor Fireplace' WHERE Parent_ID = 35 AND Position = 17") | Out-Null
-	$connection.Execute("UPDATE EngravingText SET [Text] = 'Driveway Gate Lights' WHERE Parent_ID = 35 AND Position = 18") | Out-Null
+	$connection.Execute("UPDATE EngravingText SET [Text] = '' WHERE Parent_ID = 35 AND Position = 18") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'Pool Lights' WHERE Parent_ID = 35 AND Position = 19") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'Alarm Siren' WHERE Parent_ID = 35 AND Position = 20") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'Living Room Door Lights' WHERE Parent_ID = 35 AND Position = 21") | Out-Null
@@ -51,7 +51,7 @@ Start-Job -RunAs32 -ArgumentList $PSScriptRoot\JordanView.hdf -ScriptBlock {
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'HVAC Main Downstairs Interrupt' WHERE Parent_ID = 35 AND Position = 1") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'HVAC Master Downstairs Interrupt' WHERE Parent_ID = 35 AND Position = 2") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'HVAC Upstairs Interrupt' WHERE Parent_ID = 35 AND Position = 3") | Out-Null
-	$connection.Execute("UPDATE EngravingText SET [Text] = 'Driveway Gate Keypad' WHERE Parent_ID = 35 AND Position = 4") | Out-Null
+	$connection.Execute("UPDATE EngravingText SET [Text] = '' WHERE Parent_ID = 35 AND Position = 4") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'Roof Bedroom Lights' WHERE Parent_ID = 35 AND Position = 5") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'Pond Bedroom Lights' WHERE Parent_ID = 35 AND Position = 6") | Out-Null
 	$connection.Execute("UPDATE EngravingText SET [Text] = 'Living Room Entertainment Center Lights' WHERE Parent_ID = 35 AND Position = 7") | Out-Null
